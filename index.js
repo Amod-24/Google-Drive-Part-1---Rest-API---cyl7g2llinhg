@@ -21,7 +21,7 @@ app.delete("/file/:filename",(req,res)=>{
   const filename = req.params.filename;
   if(deleteAFile(filename)){
     res.send({
-      message : "File deleted successfully"
+      message : "File Deleted Successfully"
     })
   }
   res.send({
